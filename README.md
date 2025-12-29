@@ -76,15 +76,14 @@ The main objectives of this project are:
 The project follows a **production-style machine learning architecture**:
 
 Wine Dataset (CSV)
-      ↓
+↓
 Data Preprocessing & Training (Jupyter Notebook)
-      ↓
+↓
 Trained Regression Model (model.pkl)
-      ↓
+↓
 Flask Backend (Inference Layer)
-      ↓
+↓
 Web Interface (User Input → Prediction Output)
-
 
 ---
 
@@ -94,9 +93,9 @@ Web Interface (User Input → Prediction Output)
 - Provides **real-time quality scoring**
 - Demonstrates a **production-grade ML deployment**
 - Can be extended for:
-  - Winery quality control systems  
-  - Manufacturing optimization  
-  - Decision-support tools  
+    Winery quality control systems  
+    Manufacturing optimization  
+    Decision-support tools  
 
 ---
 
@@ -104,4 +103,5 @@ Web Interface (User Input → Prediction Output)
 **Alpesh Singh**  
 B.Tech (AIML) – 3rd Year  
 Aspiring Data Engineer & Machine Learning Engineer  
+
 
