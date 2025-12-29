@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wine Quality Prediction</title>
+
+<style>
+body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#0f0f0f,#1c1c1c,#2b2b2b);
+    font-family:Segoe UI,sans-serif;
+    color:white;
+}
+.card{
+    background:rgba(20,20,20,0.95);
+    padding:30px 35px;
+    width:420px;
+    border-radius:16px;
+    box-shadow:0 0 25px rgba(0,255,180,0.15);
+}
+h2{ text-align:center; color:#00ffb3; }
+label{ font-size:13px; color:#ccc; }
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    background:#2a2a2a;
+    border:none;
+    color:white;
+    border-radius:8px;
+}
+button{
+    width:100%;
+    padding:12px;
+    margin-top:12px;
+    background:linear-gradient(90deg,#00ffb3,#00c2ff);
+    border:none;
+    font-weight:bold;
+    border-radius:10px;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+<h2>🍷 Wine Quality Prediction</h2>
+
+<form action="/predict" method="post">
+
+<label>Fixed Acidity</label>
+<input type="number" step="any" name="fixed acidity" placeholder="e.g. 7.4" required>
+
+<label>Volatile Acidity</label>
+<input type="number" step="any" name="volatile acidity" placeholder="e.g. 0.70" required>
+
+<label>Citric Acid</label>
+<input type="number" step="any" name="citric acid" placeholder="e.g. 0.00" required>
+
+<label>Residual Sugar</label>
+<input type="number" step="any" name="residual sugar" placeholder="e.g. 1.9" required>
+
+<label>Chlorides</label>
+<input type="number" step="any" name="chlorides" placeholder="e.g. 0.076" required>
+
+<label>Free Sulfur Dioxide</label>
+<input type="number" step="any" name="free sulfur dioxide" placeholder="e.g. 11.0" required>
+
+<label>Total Sulfur Dioxide</label>
+<input type="number" step="any" name="total sulfur dioxide" placeholder="e.g. 34.0" required>
+
+<label>Density</label>
+<input type="number" step="any" name="density" placeholder="e.g. 0.9978" required>
+
+<label>pH</label>
+<input type="number" step="any" name="pH" placeholder="e.g. 3.51" required>
+
+<label>Sulphates</label>
+<input type="number" step="any" name="sulphates" placeholder="e.g. 0.56" required>
+
+<label>Alcohol</label>
+<input type="number" step="any" name="alcohol" placeholder="e.g. 9.4" required>
+
+<button type="submit">Predict Quality</button>
+</form>
+</div>
+</body>
+</html>
