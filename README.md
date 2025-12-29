@@ -75,15 +75,12 @@ The main objectives of this project are:
 
 The project follows a **production-style machine learning architecture**:
 
-Wine Dataset (CSV)
-↓
-Data Preprocessing & Training (Jupyter Notebook)
-↓
-Trained Regression Model (model.pkl)
-↓
-Flask Backend (Inference Layer)
-↓
-Web Interface (User Input → Prediction Output)
+- Wine Dataset (CSV)
+- Data Preprocessing & Training (Jupyter Notebook)
+- Trained Regression Model (`model.pkl`)
+- Flask Backend (Inference Layer)
+- Web Interface (User Input → Prediction Output)
+
 
 ---
 
@@ -103,5 +100,6 @@ Web Interface (User Input → Prediction Output)
 **Alpesh Singh**  
 B.Tech (AIML) – 3rd Year  
 Aspiring Data Engineer & Machine Learning Engineer  
+
 
 
