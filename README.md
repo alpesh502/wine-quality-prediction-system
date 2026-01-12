@@ -16,7 +16,7 @@ The project demonstrates a complete ML workflow — from data preprocessing and 
 Wine quality evaluation is traditionally performed by human experts through sensory analysis. However, this process can be:
 - Subjective  
 - Time-consuming  
-- Inconsistent across evaluators  
+- Inconsistent across evaluators
 
 This project addresses these challenges by using **machine learning regression** to predict wine quality objectively based on measurable chemical attributes.
 
@@ -100,6 +100,7 @@ The project follows a **production-style machine learning architecture**:
 **Alpesh Singh**  
 B.Tech (AIML) – 3rd Year  
 Aspiring Data Engineer & Machine Learning Engineer  
+
 
 
 
